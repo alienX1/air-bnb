@@ -4,7 +4,7 @@ import './Cards.css';
 function Cards(props) {
   return (
     <div className="Card-container">
-      <img src={`./images/${props.img}`} alt="" className="Card-img" />
+      <img src={`./images/${props.img}`} alt="card" className="Card-img" />
       <div className="Card-Detail">
         <p>Rating:</p>
         <svg
