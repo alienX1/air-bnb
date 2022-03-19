@@ -40,7 +40,7 @@
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 }
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 760px) {
   .name {
     display: none;
   }
