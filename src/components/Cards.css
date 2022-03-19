@@ -1,0 +1,29 @@
+.Card-container {
+  margin: 0 20px;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  border-radius: 5px;
+  height: 260px;
+}
+.Card-img {
+  max-width: 300px;
+  border-radius: 5px 5px 0 0;
+}
+.Card-Detail {
+  display: flex;
+  align-items: center;
+}
+.Card-Detail p {
+  margin-right: 10px;
+}
+.Card-Detail svg {
+  margin-right: 5px;
+}
+.Card-Detail span {
+  margin-left: 10px;
+}
+.Card-Detail,
+.Name {
+  margin-left: 20px;
+}

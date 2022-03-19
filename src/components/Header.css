@@ -1,0 +1,50 @@
+.Header {
+  width: 90%;
+  margin: 130px auto 20px auto;
+  position: relative;
+}
+.Head-img {
+  width: 100%;
+  border-radius: 5px;
+  margin: auto;
+  align-self: center;
+}
+.Head-Detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+}
+.Head-Detail p {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #ffff;
+}
+.Head-Detail button {
+  background: #ffff;
+  outline: none;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 20px;
+  color: rgb(248, 59, 248);
+  font-weight: 700;
+}
+.Head-Detail button:hover {
+  opacity: 0.8;
+}
+@media only screen and (min-width: 1024px) {
+  .Head-Detail {
+    bottom: 35%;
+  }
+  .Head-Detail p {
+    font-size: 50px;
+  }
+  .Head-Detail button {
+    font-size: 20px;
+  }
+}

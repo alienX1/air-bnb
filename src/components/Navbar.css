@@ -1,0 +1,50 @@
+.Navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 5px 6px -6px rgb(167, 157, 157);
+}
+
+.Logo {
+  width: 80px;
+}
+.Brand {
+  display: flex;
+  align-items: center;
+}
+.Brand p {
+  font-weight: 700;
+  color: red;
+  font-size: 20px;
+}
+.Search-Box {
+  border: 2px solid gray;
+  padding: 10px 20px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+}
+.Search-Box input {
+  background: transparent;
+  outline: none;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+@media only screen and (min-width: 760px) {
+  .name {
+    display: none;
+  }
+  .Navbar {
+    padding: 10px;
+  }
+}

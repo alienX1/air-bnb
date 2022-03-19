@@ -1,0 +1,33 @@
+.Footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 90%;
+  padding: 30px;
+  background-color: aliceblue;
+  margin: 30px auto 0 auto;
+  justify-content: space-between;
+  -webkit-box-shadow: 5px 8px 6px -6px black;
+  -moz-box-shadow: 5px 8px 6px -6px black;
+  box-shadow: 5px 5px 6px -6px rgb(167, 157, 157);
+}
+.Footer ul {
+  display: flex;
+}
+
+.Footer ul li {
+  /* list-style: none; */
+  margin: 10px 40px 10px 10px;
+  cursor: pointer;
+}
+.Footer p {
+  margin: 10px;
+}
+
+.Icons {
+  padding: 10px;
+}
+
+.Icons svg {
+  margin-right: 20px;
+}
