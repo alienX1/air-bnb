@@ -12,7 +12,6 @@ function Footer() {
         <li>Sitemap</li>
         <li>Company details</li>
       </ul>
-
       <div className="Icons">
         <svg
           xmlns="http://www.w3.org/2000/svg"

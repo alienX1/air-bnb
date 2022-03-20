@@ -40,11 +40,17 @@
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 }
+.Navbar svg {
+  padding-right: 10px;
+}
 @media only screen and (max-width: 760px) {
   .name {
     display: none;
   }
   .Navbar {
+    padding: 10px 0;
+  }
+  .Search-Box {
     padding: 10px;
   }
 }
